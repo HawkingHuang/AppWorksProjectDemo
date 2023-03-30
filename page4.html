@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>登入</title>
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <style>
+            h1 {
+                font-size: 50px;
+                color: rgb(240, 248, 255);
+                text-shadow: 2px 2px 5px purple;
+                text-align: center;
+            }
+            body {
+                background-color: rgba(0,0,0,.6);
+                background-blend-mode: multiply;
+                background-image: url("hugo3.jpg");  
+            }
+            label {
+                color: silver;
+                text-align: left;
+            }
+            div {
+                font-size: larger;
+            }
+            input {
+                height:20px;
+                border-radius: 5px;
+            }
+            a:hover {
+                background-color: rgb(211, 211, 211) !important;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>登入</h1>
+        <div style="text-align: center">
+        <form action="/action_page.php">
+            <label for="email">電子郵件地址：</label><br>
+            <input type="text" id="email" name="email" style="width: 10%"><br><br>
+            <label for="password">密碼：</label><br>
+            <input type="password" id="password" name="password" style="width: 10%"><br><br>
+            <a href="index.html" style="text-decoration: none; color: black; padding: 5px 10px 5px 10px; background-color: rgb(240, 248, 255); border-radius: 10px">登入</a>
+        </form> 
+        </div>  
+    </body>
+</html>
+    
